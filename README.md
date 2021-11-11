@@ -54,40 +54,22 @@ In the console all the passenger details are displayed Finally the Exit Code run
 * Add Flight, Edit Flight, Delete Flight, Flight Leave And Arrive and Back to Menu
 This options are for manipulate the flight detail in C++ program
 
-Function AddNewFlight
-Here firstly the program get all the flight information from user
-Then the information insert into the database with “Insert” query
-If the operation successfully done then the program shows the Success message or found any error then the program show error message with error code
-Finally the Exit Code runs and ask the user to go to main menu, insert again or exit from C++ program
-Function EditFlight
-Firstly the program shows all the flights in the database
-Then ask for a flight id from the user
-After verification of the given id the program see the id is in the database or not if not then shows not found message
-If the ID found by the program then it shows the row of the corresponding id and ask for change the values that the user want if the user don’t want to change any value then they can simply type ”X”.
-Now the “Update” query runs and if no exception found the console shows the success message
-Now the Exit Code runs and ask for the user to choose go to menu, edit another item or exit from the C++ program.
-Airlines Reservation System in C++ with MySQL
+## Function AddNewFlight
+Here firstly the program get all the flight information from user Then the information insert into the database with “Insert” query
+If the operation successfully done then the program shows the Success message or found any error then the program show error message with error code Finally the Exit Code runs and ask the user to go to main menu, insert again or exit from C++ program
+*  Function EditFlight
+Firstly the program shows all the flights in the database then ask for a flight id from the user after verification of the given id the program see the id is in the database or not if not then shows not found message
+If the ID found by the program then it shows the row of the corresponding id and ask for change the values that the user want if the user don’t want to change any value then they can simply type ”X”. Now the “Update” query runs and if no exception found the console shows the success message now the Exit Code runs and ask for the user to choose go to menu, edit another item or exit from the C++ program.
 
-Function DeleteFlight
-Firstly the program shows all the flights are stored in the database
-Then ask for an Column ID
-If the ID verification successfully done then it will check the id is in the database or not
-Or if the id verification is not successful then it runs the Exit Code
-If the id found successfully then the “Delete” query delete the data from the database
-Finally the Exit Code runs.
-Airlines Reservation System in C++ with MySQLAirlines Reservation System in C++ with MySQL
+## Function DeleteFlight
+Firstly the program shows all the flights are stored in the database then ask for an Column ID if the ID verification successfully done then it will check the id is in the database or not or if the id verification is not successful then it runs the Exit Code
+If the id found successfully then the “Delete” query delete the data from the database finally the Exit Code runs.
 
-Function FlightLeaveArrive
-Firstly some important flight information are displayed in the console
-Then ask for an Column ID
-If the ID verification successfully done then it will check the id is in the database or not
-Or if the id verification is not successful then it runs the Exit Code
-Now if the id found then the program show the details of the flight and some inputs “Leave, Arrive, Available” are ask for edit by the user.
-Finally the Exit Code runs.
-Airlines Reservation System in C++ with MySQL
+## Function FlightLeaveArrive
+Firstly some important flight information are displayed in the console then ask for an Column ID if the ID verification successfully done then it will check the id is in the database or not or if the id verification is not successful then it runs the Exit Code
+Now if the id found then the program show the details of the flight and some inputs “Leave, Arrive, Available” are ask for edit by the user. Finally the Exit Code runs.
 
-Database and Table Name
-Table: flightdetails_tb , userreservation_tb
-Database: cpp_airlinereservation_db
-Usage: XAMPP Server, MySql Headers, MySql Libs
-Airlines Reservation System in C++ with MySQL
+## Database and Table Name
+* Table: flightdetails_tb , userreservation_tb
+* Database: cpp_airlinereservation_db
+* Usage: XAMPP Server, MySql Headers, MySql Libs
